@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <Nullable>enable</Nullable>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+        <GenerateDependencyFile>false</GenerateDependencyFile>
+        <Configurations>Debug;Release;MigrationPatch;ExtraGenes;VEF</Configurations>
+        <Platforms>AnyCPU</Platforms>
+    </PropertyGroup>
+    
+    <PropertyGroup Condition=" '$(Configuration)' == 'MigrationPatch' ">
+      <OutputPath>D:\SteamLibrary\steamapps\common\RimWorld\Mods\MegaCorp Edition Migration Patch\1.6\Assemblies\</OutputPath>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="0Harmony">
+        <HintPath>D:\SteamLibrary\steamapps\workshop\content\294100\2009463077\Current\Assemblies\0Harmony.dll</HintPath>
+        <Private>false</Private>
+      </Reference>
+      <Reference Include="Assembly-CSharp">
+        <HintPath>D:\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
+        <Private>false</Private>
+      </Reference>
+      <Reference Include="HarmonyMod">
+        <HintPath>D:\SteamLibrary\steamapps\workshop\content\294100\2009463077\Current\Assemblies\HarmonyMod.dll</HintPath>
+        <Private>false</Private>
+      </Reference>
+      <Reference Include="System">
+        <HintPath>D:\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\System.dll</HintPath>
+        <Private>false</Private>
+      </Reference>
+      <Reference Include="Unity.Mathematics">
+        <HintPath>D:\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\Unity.Mathematics.dll</HintPath>
+        <Private>false</Private>
+      </Reference>
+      <Reference Include="UnityEngine">
+        <HintPath>D:\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.dll</HintPath>
+        <Private>false</Private>
+      </Reference>
+      <Reference Include="UnityEngine.CoreModule">
+        <HintPath>D:\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+        <Private>false</Private>
+      </Reference>
+      <Reference Include="Wolfein">
+        <HintPath>D:\SteamLibrary\steamapps\workshop\content\294100\3473140562\1.6\Assemblies\Wolfein.dll</HintPath>
+        <Private>false</Private>
+      </Reference>
+    </ItemGroup>
+
+</Project>

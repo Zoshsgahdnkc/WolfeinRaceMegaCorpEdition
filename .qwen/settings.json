@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__rimsage__read_csharp_symbol",
+      "mcp__rimsage__search_source",
+      "mcp__rimsage__search_defs",
+      "mcp__rimsage__get_def_details",
+      "mcp__rimsage__list_directory",
+      "mcp__rimsage__read_file",
+      "Read(C:\\Users\\29879\\AppData\\Roaming\\JetBrains\\Rider2025.3\\resharper-host\\DecompilerCache\\decompiler\\46372f5dadbf4af8939e608076251180f09200\\ae\\e1122b92/**)",
+      "Read(C:\\Users\\29879\\AppData\\Roaming\\JetBrains\\Rider2025.3\\resharper-host\\DecompilerCache\\decompiler\\46372f5dadbf4af8939e608076251180f09200\\a2\\827223fa/**)",
+      "Read(C:/Users/29879/AppData/Roaming/JetBrains/Rider2025.3/resharper-host/DecompilerCache/decompiler/46372f5dadbf4af8939e608076251180f09200/30/e2317066/**)",
+      "Read(C:/Users/29879/AppData/Roaming/JetBrains/Rider2025.3/resharper-host/DecompilerCache/decompiler/46372f5dadbf4af8939e608076251180f09200/8a/2e4f3868/**)",
+      "Read(C:/Users/29879/AppData/Roaming/JetBrains/Rider2025.3/resharper-host/DecompilerCache/decompiler/46372f5dadbf4af8939e608076251180f09200/53/3c39629a/**)"
+    ]
+  },
+  "$version": 3
+}

@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WRMegaCorp", "WRMegaCorp\WRMegaCorp.csproj", "{2F83854B-445D-43DB-AEC8-E50A514BAB7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WRMC_Biotech", "WRMC_Biotech\WRMC_Biotech.csproj", "{68F002D4-EE34-4C90-B203-0B1A7046F4F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MigrationPatch", "MigrationPatch\MigrationPatch.csproj", "{6B46C45A-461E-4013-A70B-165D12DAB280}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtraGenes", "ExtraGenes\ExtraGenes.csproj", "{BEA7F51E-11A1-4FF5-A4E7-FDFB7D3CCB9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiotechAndVNPE", "..\BiotechAndVNPE\BiotechAndVNPE\BiotechAndVNPE.csproj", "{EBCAA3DF-ED56-4F37-9755-8A2A01C2F536}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VEF", "VEF\VEF.csproj", "{6DCA33B0-73B2-4CB1-B2BA-D274A989BEA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		MigrationPatch|Any CPU = MigrationPatch|Any CPU
+		ExtraGenes|Any CPU = ExtraGenes|Any CPU
+		VEF|Any CPU = VEF|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F83854B-445D-43DB-AEC8-E50A514BAB7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F83854B-445D-43DB-AEC8-E50A514BAB7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F83854B-445D-43DB-AEC8-E50A514BAB7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F83854B-445D-43DB-AEC8-E50A514BAB7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F83854B-445D-43DB-AEC8-E50A514BAB7C}.MigrationPatch|Any CPU.ActiveCfg = MigrationPatch|Any CPU
+		{2F83854B-445D-43DB-AEC8-E50A514BAB7C}.ExtraGenes|Any CPU.ActiveCfg = ExtraGenes|Any CPU
+		{2F83854B-445D-43DB-AEC8-E50A514BAB7C}.VEF|Any CPU.ActiveCfg = VEF|Any CPU
+		{68F002D4-EE34-4C90-B203-0B1A7046F4F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68F002D4-EE34-4C90-B203-0B1A7046F4F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68F002D4-EE34-4C90-B203-0B1A7046F4F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68F002D4-EE34-4C90-B203-0B1A7046F4F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68F002D4-EE34-4C90-B203-0B1A7046F4F5}.MigrationPatch|Any CPU.ActiveCfg = MigrationPatch|Any CPU
+		{68F002D4-EE34-4C90-B203-0B1A7046F4F5}.ExtraGenes|Any CPU.ActiveCfg = ExtraGenes|Any CPU
+		{68F002D4-EE34-4C90-B203-0B1A7046F4F5}.VEF|Any CPU.ActiveCfg = VEF|Any CPU
+		{6B46C45A-461E-4013-A70B-165D12DAB280}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B46C45A-461E-4013-A70B-165D12DAB280}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B46C45A-461E-4013-A70B-165D12DAB280}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B46C45A-461E-4013-A70B-165D12DAB280}.MigrationPatch|Any CPU.ActiveCfg = MigrationPatch|Any CPU
+		{6B46C45A-461E-4013-A70B-165D12DAB280}.MigrationPatch|Any CPU.Build.0 = MigrationPatch|Any CPU
+		{6B46C45A-461E-4013-A70B-165D12DAB280}.ExtraGenes|Any CPU.ActiveCfg = ExtraGenes|Any CPU
+		{6B46C45A-461E-4013-A70B-165D12DAB280}.VEF|Any CPU.ActiveCfg = VEF|Any CPU
+		{BEA7F51E-11A1-4FF5-A4E7-FDFB7D3CCB9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEA7F51E-11A1-4FF5-A4E7-FDFB7D3CCB9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEA7F51E-11A1-4FF5-A4E7-FDFB7D3CCB9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEA7F51E-11A1-4FF5-A4E7-FDFB7D3CCB9F}.MigrationPatch|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEA7F51E-11A1-4FF5-A4E7-FDFB7D3CCB9F}.ExtraGenes|Any CPU.ActiveCfg = ExtraGenes|Any CPU
+		{BEA7F51E-11A1-4FF5-A4E7-FDFB7D3CCB9F}.ExtraGenes|Any CPU.Build.0 = ExtraGenes|Any CPU
+		{BEA7F51E-11A1-4FF5-A4E7-FDFB7D3CCB9F}.VEF|Any CPU.ActiveCfg = VEF|Any CPU
+		{EBCAA3DF-ED56-4F37-9755-8A2A01C2F536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBCAA3DF-ED56-4F37-9755-8A2A01C2F536}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBCAA3DF-ED56-4F37-9755-8A2A01C2F536}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBCAA3DF-ED56-4F37-9755-8A2A01C2F536}.MigrationPatch|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBCAA3DF-ED56-4F37-9755-8A2A01C2F536}.ExtraGenes|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBCAA3DF-ED56-4F37-9755-8A2A01C2F536}.VEF|Any CPU.ActiveCfg = VEF|Any CPU
+		{6DCA33B0-73B2-4CB1-B2BA-D274A989BEA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DCA33B0-73B2-4CB1-B2BA-D274A989BEA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DCA33B0-73B2-4CB1-B2BA-D274A989BEA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DCA33B0-73B2-4CB1-B2BA-D274A989BEA0}.MigrationPatch|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DCA33B0-73B2-4CB1-B2BA-D274A989BEA0}.ExtraGenes|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DCA33B0-73B2-4CB1-B2BA-D274A989BEA0}.VEF|Any CPU.ActiveCfg = VEF|Any CPU
+		{6DCA33B0-73B2-4CB1-B2BA-D274A989BEA0}.VEF|Any CPU.Build.0 = VEF|Any CPU
+	EndGlobalSection
+EndGlobal

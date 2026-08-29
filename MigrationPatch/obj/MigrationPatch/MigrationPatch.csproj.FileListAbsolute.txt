@@ -1,0 +1,9 @@
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\MegaCorp Edition Migration Patch\1.6\Assemblies\MigrationPatch.dll
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\MegaCorp Edition Migration Patch\1.6\Assemblies\MigrationPatch.pdb
+C:\Users\29879\RiderProjects\ClassLibrary1\MigrationPatch\obj\MigrationPatch\MigrationPatch.csproj.AssemblyReference.cache
+C:\Users\29879\RiderProjects\ClassLibrary1\MigrationPatch\obj\MigrationPatch\MigrationPatch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\29879\RiderProjects\ClassLibrary1\MigrationPatch\obj\MigrationPatch\MigrationPatch.AssemblyInfoInputs.cache
+C:\Users\29879\RiderProjects\ClassLibrary1\MigrationPatch\obj\MigrationPatch\MigrationPatch.AssemblyInfo.cs
+C:\Users\29879\RiderProjects\ClassLibrary1\MigrationPatch\obj\MigrationPatch\MigrationPatch.csproj.CoreCompileInputs.cache
+C:\Users\29879\RiderProjects\ClassLibrary1\MigrationPatch\obj\MigrationPatch\MigrationPatch.dll
+C:\Users\29879\RiderProjects\ClassLibrary1\MigrationPatch\obj\MigrationPatch\MigrationPatch.pdb

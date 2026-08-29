@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "X6MHWwI33Ds=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\29879\\RiderProjects\\ClassLibrary1\\MigrationPatch\\MigrationPatch.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\29879\\.nuget\\packages\\netstandard.library.ref\\2.1.0\\netstandard.library.ref.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

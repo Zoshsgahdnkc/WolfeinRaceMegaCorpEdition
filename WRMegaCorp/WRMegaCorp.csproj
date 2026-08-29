@@ -1,0 +1,58 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <RootNamespace>MGCP</RootNamespace>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+        <GenerateDependencyFile>false</GenerateDependencyFile>
+        <LangVersion>latest</LangVersion>
+        <Configurations>Debug;Release;MigrationPatch;ExtraGenes;VEF</Configurations>
+        <Platforms>AnyCPU</Platforms>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+      <OutputPath>D:\SteamLibrary\steamapps\common\RimWorld\Mods\Wolfein Race MegaCorp Edition\1.6\Assemblies\</OutputPath>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="0Harmony">
+        <HintPath>D:\SteamLibrary\steamapps\workshop\content\294100\2009463077\Current\Assemblies\0Harmony.dll</HintPath>
+        <Private>false</Private>
+      </Reference>
+      <Reference Include="AlienRace">
+        <HintPath>D:\SteamLibrary\steamapps\workshop\content\294100\839005762\1.6\Assemblies\AlienRace.dll</HintPath>
+        <Private>false</Private>
+      </Reference>
+      <Reference Include="AncotLibrary">
+        <HintPath>D:\SteamLibrary\steamapps\workshop\content\294100\2988801276\1.6\Assemblies\AncotLibrary.dll</HintPath>
+        <Private>false</Private>
+      </Reference>
+      <Reference Include="Assembly-CSharp">
+        <HintPath>D:\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
+        <Private>false</Private>
+      </Reference>
+      <Reference Include="HarmonyMod">
+        <HintPath>D:\SteamLibrary\steamapps\workshop\content\294100\2009463077\Current\Assemblies\HarmonyMod.dll</HintPath>
+        <Private>false</Private>
+      </Reference>
+      <Reference Include="UnityEngine.CoreModule">
+        <HintPath>D:\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+        <Private>false</Private>
+      </Reference>
+      <Reference Include="UnityEngine.TextRenderingModule">
+        <HintPath>D:\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+        <Private>false</Private>
+      </Reference>
+      <Reference Include="Wolfein">
+        <HintPath>D:\SteamLibrary\steamapps\workshop\content\294100\3473140562\1.6\Assemblies\Wolfein.dll</HintPath>
+        <Private>false</Private>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Common\Apparel\" />
+    </ItemGroup>
+
+
+</Project>

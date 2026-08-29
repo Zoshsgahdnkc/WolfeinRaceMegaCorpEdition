@@ -1,0 +1,10 @@
+C:\Users\29879\RiderProjects\ClassLibrary1\VEF\obj\VEF\VEF.csproj.AssemblyReference.cache
+C:\Users\29879\RiderProjects\ClassLibrary1\VEF\obj\VEF\VEF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\29879\RiderProjects\ClassLibrary1\VEF\obj\VEF\VEF.AssemblyInfoInputs.cache
+C:\Users\29879\RiderProjects\ClassLibrary1\VEF\obj\VEF\VEF.AssemblyInfo.cs
+C:\Users\29879\RiderProjects\ClassLibrary1\VEF\obj\VEF\VEF.csproj.CoreCompileInputs.cache
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\Wolfein Race MegaCorp Edition\OptionalLoaded\VEF\1.6\Assemblies\VEF.dll
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\Wolfein Race MegaCorp Edition\OptionalLoaded\VEF\1.6\Assemblies\VEF.pdb
+C:\Users\29879\RiderProjects\ClassLibrary1\VEF\obj\VEF\VEF.csproj.Up2Date
+C:\Users\29879\RiderProjects\ClassLibrary1\VEF\obj\VEF\VEF.dll
+C:\Users\29879\RiderProjects\ClassLibrary1\VEF\obj\VEF\VEF.pdb

@@ -1,0 +1,5 @@
+C:\Users\29879\RiderProjects\ClassLibrary1\MGCP\obj\Debug\netstandard2.0\MGCP.csproj.AssemblyReference.cache
+C:\Users\29879\RiderProjects\ClassLibrary1\MGCP\obj\Debug\netstandard2.0\MGCP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\29879\RiderProjects\ClassLibrary1\MGCP\obj\Debug\netstandard2.0\MGCP.AssemblyInfoInputs.cache
+C:\Users\29879\RiderProjects\ClassLibrary1\MGCP\obj\Debug\netstandard2.0\MGCP.AssemblyInfo.cs
+C:\Users\29879\RiderProjects\ClassLibrary1\MGCP\obj\Debug\netstandard2.0\MGCP.csproj.CoreCompileInputs.cache

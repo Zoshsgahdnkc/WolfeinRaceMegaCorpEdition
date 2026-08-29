@@ -1,0 +1,9 @@
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\Wolfein Race Extra Genes\1.6\Assemblies\ExtraGenes.dll
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\Wolfein Race Extra Genes\1.6\Assemblies\ExtraGenes.pdb
+C:\Users\29879\RiderProjects\ClassLibrary1\ExtraGenes\obj\ExtraGenes\ExtraGenes.csproj.AssemblyReference.cache
+C:\Users\29879\RiderProjects\ClassLibrary1\ExtraGenes\obj\ExtraGenes\ExtraGenes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\29879\RiderProjects\ClassLibrary1\ExtraGenes\obj\ExtraGenes\ExtraGenes.AssemblyInfoInputs.cache
+C:\Users\29879\RiderProjects\ClassLibrary1\ExtraGenes\obj\ExtraGenes\ExtraGenes.AssemblyInfo.cs
+C:\Users\29879\RiderProjects\ClassLibrary1\ExtraGenes\obj\ExtraGenes\ExtraGenes.csproj.CoreCompileInputs.cache
+C:\Users\29879\RiderProjects\ClassLibrary1\ExtraGenes\obj\ExtraGenes\ExtraGenes.dll
+C:\Users\29879\RiderProjects\ClassLibrary1\ExtraGenes\obj\ExtraGenes\ExtraGenes.pdb

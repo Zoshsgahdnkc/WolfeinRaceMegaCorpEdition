@@ -1,0 +1,11 @@
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\Wolfein Race MegaCorp Edition\Biotech\1.6\Assemblies\BiotechDLC.dll
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\Wolfein Race MegaCorp Edition\Biotech\1.6\Assemblies\BiotechDLC.pdb
+C:\Users\29879\RiderProjects\ClassLibrary1\BiotechDLC\obj\Debug\BiotechDLC.csproj.AssemblyReference.cache
+C:\Users\29879\RiderProjects\ClassLibrary1\BiotechDLC\obj\Debug\BiotechDLC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\29879\RiderProjects\ClassLibrary1\BiotechDLC\obj\Debug\BiotechDLC.AssemblyInfoInputs.cache
+C:\Users\29879\RiderProjects\ClassLibrary1\BiotechDLC\obj\Debug\BiotechDLC.AssemblyInfo.cs
+C:\Users\29879\RiderProjects\ClassLibrary1\BiotechDLC\obj\Debug\BiotechDLC.csproj.CoreCompileInputs.cache
+C:\Users\29879\RiderProjects\ClassLibrary1\BiotechDLC\obj\Debug\BiotechDLC.dll
+C:\Users\29879\RiderProjects\ClassLibrary1\BiotechDLC\obj\Debug\BiotechDLC.pdb
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\Wolfein Race MegaCorp Edition\OptionalLoaded\Biotech\1.6\Assemblies\BiotechDLC.dll
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\Wolfein Race MegaCorp Edition\OptionalLoaded\Biotech\1.6\Assemblies\BiotechDLC.pdb

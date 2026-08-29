@@ -1,0 +1,9 @@
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\Wolfein Race MegaCorp Edition\1.6\Assemblies\WRMegaCorp.dll
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\Wolfein Race MegaCorp Edition\1.6\Assemblies\WRMegaCorp.pdb
+C:\Users\29879\RiderProjects\ClassLibrary1\WRMegaCorp\obj\Debug\WRMegaCorp.csproj.AssemblyReference.cache
+C:\Users\29879\RiderProjects\ClassLibrary1\WRMegaCorp\obj\Debug\WRMegaCorp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\29879\RiderProjects\ClassLibrary1\WRMegaCorp\obj\Debug\WRMegaCorp.AssemblyInfoInputs.cache
+C:\Users\29879\RiderProjects\ClassLibrary1\WRMegaCorp\obj\Debug\WRMegaCorp.AssemblyInfo.cs
+C:\Users\29879\RiderProjects\ClassLibrary1\WRMegaCorp\obj\Debug\WRMegaCorp.csproj.CoreCompileInputs.cache
+C:\Users\29879\RiderProjects\ClassLibrary1\WRMegaCorp\obj\Debug\WRMegaCorp.dll
+C:\Users\29879\RiderProjects\ClassLibrary1\WRMegaCorp\obj\Debug\WRMegaCorp.pdb

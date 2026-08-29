@@ -1,0 +1,11 @@
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\Wolfein Race MegaCorp Edition\1.6\Assemblies\netstandard2.1\MGCP.deps.json
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\Wolfein Race MegaCorp Edition\1.6\Assemblies\netstandard2.1\MGCP.dll
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\Wolfein Race MegaCorp Edition\1.6\Assemblies\netstandard2.1\MGCP.pdb
+C:\Users\29879\RiderProjects\ClassLibrary1\MGCP\obj\Debug\netstandard2.1\MGCP.csproj.AssemblyReference.cache
+C:\Users\29879\RiderProjects\ClassLibrary1\MGCP\obj\Debug\netstandard2.1\MGCP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\29879\RiderProjects\ClassLibrary1\MGCP\obj\Debug\netstandard2.1\MGCP.AssemblyInfoInputs.cache
+C:\Users\29879\RiderProjects\ClassLibrary1\MGCP\obj\Debug\netstandard2.1\MGCP.AssemblyInfo.cs
+C:\Users\29879\RiderProjects\ClassLibrary1\MGCP\obj\Debug\netstandard2.1\MGCP.csproj.CoreCompileInputs.cache
+C:\Users\29879\RiderProjects\ClassLibrary1\MGCP\obj\Debug\netstandard2.1\MGCP.csproj.Up2Date
+C:\Users\29879\RiderProjects\ClassLibrary1\MGCP\obj\Debug\netstandard2.1\MGCP.dll
+C:\Users\29879\RiderProjects\ClassLibrary1\MGCP\obj\Debug\netstandard2.1\MGCP.pdb

@@ -1,0 +1,9 @@
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\Wolfein Race MegaCorp Edition\OptionalLoaded\Biotech\1.6\Assemblies\WRMC_Biotech.dll
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\Wolfein Race MegaCorp Edition\OptionalLoaded\Biotech\1.6\Assemblies\WRMC_Biotech.pdb
+C:\Users\29879\RiderProjects\ClassLibrary1\WRMC_Biotech\obj\Debug\WRMC_Biotech.csproj.AssemblyReference.cache
+C:\Users\29879\RiderProjects\ClassLibrary1\WRMC_Biotech\obj\Debug\WRMC_Biotech.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\29879\RiderProjects\ClassLibrary1\WRMC_Biotech\obj\Debug\WRMC_Biotech.AssemblyInfoInputs.cache
+C:\Users\29879\RiderProjects\ClassLibrary1\WRMC_Biotech\obj\Debug\WRMC_Biotech.AssemblyInfo.cs
+C:\Users\29879\RiderProjects\ClassLibrary1\WRMC_Biotech\obj\Debug\WRMC_Biotech.csproj.CoreCompileInputs.cache
+C:\Users\29879\RiderProjects\ClassLibrary1\WRMC_Biotech\obj\Debug\WRMC_Biotech.dll
+C:\Users\29879\RiderProjects\ClassLibrary1\WRMC_Biotech\obj\Debug\WRMC_Biotech.pdb
