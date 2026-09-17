@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("ExtraGenes")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("WRMC_Biotech")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("VEF")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b7f9786e18d75ea2cd8af240213f36bf7704e116")]
-[assembly: System.Reflection.AssemblyProductAttribute("ExtraGenes")]
-[assembly: System.Reflection.AssemblyTitleAttribute("ExtraGenes")]
+[assembly: System.Reflection.AssemblyProductAttribute("WRMC_Biotech")]
+[assembly: System.Reflection.AssemblyTitleAttribute("WRMC_Biotech")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // 由 MSBuild WriteCodeFragment 类生成。

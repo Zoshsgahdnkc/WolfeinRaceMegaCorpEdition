@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using RimWorld;
@@ -96,14 +97,19 @@ public class RoomContents_GrowthVatChamber: RoomContentsWorker
                 // mother.guest.Recruitable = true;
                 GenSpawn.Spawn(mother, motherCell.Value, map);
                 
-                bool shouldMotherAlive = (Find.TickManager.TicksGame - map.Parent.creationGameTicks) < GenDate.TicksPerDay;
-                WRMC_Utils.LogDebugMessage($"Gen site at {map.Parent.creationGameTicks}, Gen map at {Find.TickManager.TicksGame}, shouldAlive :{shouldMotherAlive}");
-                if (shouldMotherAlive)
+                // float hoursSinceQuest = (Find.TickManager.TicksGame - map.Parent.creationGameTicks) / (float)GenDate.TicksPerHour;
+                float hoursSinceQuest = 18;
+                WRMC_Utils.LogDebugMessage($"Gen site at {map.Parent.creationGameTicks}, Gen map at {Find.TickManager.TicksGame}, hours passed :{(int)hoursSinceQuest}");
+                // 6小时以内存活
+                if (hoursSinceQuest < 6)
                 {
                     for (int i = 0; i < 5; i++)
                     {
-                        mother.TakeDamage(new DamageInfo(HealthUtility.RandomViolenceDamageType(), Rand.Range(5f, 10f)));
-                        if (HealthUtility.TicksUntilDeathDueToBloodLoss(mother) < 40000) break;
+                        float amount = Rand.Range(5f, 10f);
+                        var damDef = HealthUtility.RandomViolenceDamageType();
+                        mother.TakeDamage(new DamageInfo(damDef, amount));
+                        // 如果17小时内死亡则不继续
+                        if (HealthUtility.TicksUntilDeathDueToBloodLoss(mother) < GenDate.TicksPerDay * 0.7) break;
                     }
                     if (mother.Dead)
                     {
@@ -118,11 +124,33 @@ public class RoomContents_GrowthVatChamber: RoomContentsWorker
                         }
                     }
                 }
-                else if (!mother.Dead)
+                // 24小时以外死亡
+                else if (hoursSinceQuest > 24 && !mother.Dead)
                 {
                     HealthUtility.DamageUntilDead(mother);
                 }
-                mother.mindState.WillJoinColonyIfRescued = true;
+                // 如非以上两种情况，根据到达时间额外伤害，不保证存活
+                else
+                {
+                    int tries = (int)((hoursSinceQuest - 5)/2) + 6;
+                    for (int i = 0; i < tries; i++)
+                    {
+                        float amount = Rand.Range(10f, 15f);
+                        var damDef = HealthUtility.RandomViolenceDamageType();
+                        mother.TakeDamage(new DamageInfo(damDef, amount, 0.2f));
+                        WRMC_Utils.LogDebugMessage($"Randomly injuring wolfein mother - try:{i + 1}/{tries}, amount:{amount}, died:{mother.Dead}");
+                        if (!mother.Dead)
+                        {
+                            Hediff hediff_ = mother.health.AddHediff(WolfeinDefOf.Wolfein_Abasia);
+                            if (hediff_.TryGetComp<HediffComp_Disappears>() is HediffComp_Disappears dis)
+                            {
+                                dis.SetDuration(GenDate.TicksPerDay * 2);
+                            }
+                        }
+                        else break;
+                    }
+                }
+                if(!mother.Dead) mother.mindState.WillJoinColonyIfRescued = true;
                 
                 // map.mapDrawer.MapMeshDirty(cell, MapMeshFlagDefOf.Buildings | MapMeshFlagDefOf.Things);
                 var letterProps = vat.GetComp<CompLetterOnRevealed>().Props;

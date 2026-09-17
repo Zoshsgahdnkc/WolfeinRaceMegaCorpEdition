@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VEF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b7f9786e18d75ea2cd8af240213f36bf7704e116")]
 [assembly: System.Reflection.AssemblyProductAttribute("VEF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VEF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

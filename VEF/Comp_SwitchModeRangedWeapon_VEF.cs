@@ -152,7 +152,6 @@ public class Comp_SwitchModeRangedWeapon_VEF: ThingComp, IPawnWeaponGizmoProvide
             return;
         foreach (Verb addedVerb in this.addedVerbs)
         {
-            verbs.Remove(addedVerb);
             // MVCF
             addedVerb.CasterPawn.Manager().RemoveVerb(addedVerb);
         }
@@ -218,6 +217,7 @@ public class Comp_SwitchModeRangedWeapon_VEF: ThingComp, IPawnWeaponGizmoProvide
         this.addedVerbs.Add(instance);
         
         // MVCF兼容
+        WRMC_Utils.LogDebugMessage($"Initialize MVCF Verb for verb {instance.ReportLabel}");
         MVCF.Utilities.ManagedVerbUtility.InitializeManaged(instance, compEquippable.verbTracker);
         
         return true;
@@ -257,7 +257,7 @@ public class Comp_SwitchModeRangedWeapon_VEF: ThingComp, IPawnWeaponGizmoProvide
     
     private void MarkVerbRebuildPending()
     {
-        WRMC_Utils.LogDebugMessage("Marking Verb RebuildPending...");
+        WRMC_Utils.LogDebugMessage("Marking Verb Rebuild Pending...");
         this.verbsInitialized = false;
         this.pendingVerbRebuild = true;
         this.nextVerbRebuildRetryTick = 0;

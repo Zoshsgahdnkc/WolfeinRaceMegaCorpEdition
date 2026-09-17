@@ -7,3 +7,4 @@ C:\Users\29879\RiderProjects\ClassLibrary1\WRMC_Biotech\obj\Debug\WRMC_Biotech.A
 C:\Users\29879\RiderProjects\ClassLibrary1\WRMC_Biotech\obj\Debug\WRMC_Biotech.csproj.CoreCompileInputs.cache
 C:\Users\29879\RiderProjects\ClassLibrary1\WRMC_Biotech\obj\Debug\WRMC_Biotech.dll
 C:\Users\29879\RiderProjects\ClassLibrary1\WRMC_Biotech\obj\Debug\WRMC_Biotech.pdb
+C:\Users\29879\RiderProjects\ClassLibrary1\WRMC_Biotech\obj\Debug\WRMC_Biotech.sourcelink.json

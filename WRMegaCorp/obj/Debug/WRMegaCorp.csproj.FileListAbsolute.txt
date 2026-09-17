@@ -7,3 +7,4 @@ C:\Users\29879\RiderProjects\ClassLibrary1\WRMegaCorp\obj\Debug\WRMegaCorp.Assem
 C:\Users\29879\RiderProjects\ClassLibrary1\WRMegaCorp\obj\Debug\WRMegaCorp.csproj.CoreCompileInputs.cache
 C:\Users\29879\RiderProjects\ClassLibrary1\WRMegaCorp\obj\Debug\WRMegaCorp.dll
 C:\Users\29879\RiderProjects\ClassLibrary1\WRMegaCorp\obj\Debug\WRMegaCorp.pdb
+C:\Users\29879\RiderProjects\ClassLibrary1\WRMegaCorp\obj\Debug\WRMegaCorp.sourcelink.json
